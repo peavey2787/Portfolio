@@ -8,11 +8,11 @@
     
 
 
-    var fName = Request["fName"];
-    var lName = Request["lName"];
-    var eMail = Request["eMail"];
-    var qComment = Request["qComment"];
-    var Submit = Request["Submit"];
+    var fName = HttpContext.Current.Request["fName"];
+    var lName = HttpContext.Current.Request["lName"];
+    var eMail = HttpContext.Current.Request["eMail"];
+    var qComment = HttpContext.Current.Request["qComment"];
+    var Submit = HttpContext.Current.Request["Submit"];
 
     if (IsPost)
     {
