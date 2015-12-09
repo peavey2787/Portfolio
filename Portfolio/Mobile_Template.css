@@ -1,0 +1,142 @@
+body
+{ 
+    margin: 0 auto;
+}
+#Full_Screen_Wrapper
+{      
+    width: 800px;
+}
+#TopNavigation
+{      
+    height: 45px;
+    background: black; 
+    color: white;
+}
+#TopNavigation a 
+{
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    text-decoration: none;  
+}
+#TopNavigation a:hover
+{
+    color: grey; 
+    font-size: 2.2em; 
+}
+
+/* Home Page */
+#For_Hire
+{
+    position:absolute;
+    vertical-align: top; 
+    margin: 20px 0 0 90px;
+    width: 275px;
+    height: 225px; 
+} 
+#Me
+{
+    position: absolute;
+    float:left;
+    margin: 0 0 0 350px; 
+    padding-top: 20px;
+    width:350px;
+    height:325px;  
+}
+
+#About_Me 
+{
+    position:absolute;
+    float:left;
+    margin: 350px 0 0 90px;
+    width: 625px;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+#About_Me h1
+{
+    margin: 0 0 30px 150px;
+}
+#Jamie_Loves_Computers
+{
+    position:absolute;
+    width: 625px;
+    height: 650px;
+    margin: 1920px 0px 0px 90px; 
+    padding-bottom: 10px;
+    float:left;
+}
+/* End Home Page */
+
+/* Portfolio Page */
+#My_Portfolio
+{
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 120px;
+    background-image: url("./Images/ByME_My_Portfolio_mobile.png");
+}
+#Csharp_Border
+{
+    position:absolute;
+    margin: 110px 0 0 30px;
+    width: 750px;
+    height: 1060px;
+    background-image: url("./Images/Csharp_Border_mobile.png");
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+#Csharp
+{
+    margin: 70px 0 40px 0;
+}
+#Csharp h1
+{
+    margin: 30px 0 30px 300px;
+    font-size: 2.5em;
+}
+#Portfolio_Page a
+{
+    opacity: 0.85
+}
+#Portfolio_Page a:hover
+{
+    opacity: 1;
+}
+.Portfolio_Images_Margin
+{
+    margin: 0 0 25px 87px;
+}
+.Portfolio_Images_Width
+{
+    width: 625px;
+}
+/* End Portfolio Page */
+
+/* Contact Me Page */
+#Contact_Me
+{
+    margin: 30px auto;
+    width: 400px; 
+    border: groove;
+}
+#Contact_Form 
+{
+    margin: 0 auto;
+    width: 350px;
+}
+/* End Contact Me Page */
+
+.shadow
+{
+    box-shadow: 0px 2px 5px #888888;
+}
+.roundCorners
+{
+    border-radius: 2px;
+} 
+.center
+ {
+    margin: 0 auto;
+}

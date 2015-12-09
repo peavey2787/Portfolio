@@ -1,0 +1,82 @@
+﻿@using System.Net.Mail;
+@{ 
+        <title>Contact Me</title>
+        <meta name="description" content="Contact Jamie Horton">
+        <meta name="keywords" content="Jamie Horton's Portfolio,Jamie Horton's Resume,Jamie Horton's Website,Jamie Horton's Web Site,Contact Jamie Horton, Jamie Horton's Contact Page">
+        <meta name="author" content="Jamie Horton">
+        <meta name="copyright" content="Jamie Horton @DateTime.Now.Year">
+    
+
+
+    var fName = Request["fName"];
+    var lName = Request["lName"];
+    var eMail = Request["eMail"];
+    var qComment = Request["qComment"];
+    var Submit = Request["Submit"];
+
+    if (IsPost)
+    {
+        AntiForgery.Validate();
+        SmtpClient client = new SmtpClient();
+        client.DeliveryMethod = SmtpDeliveryMethod.Network;
+        client.EnableSsl = true;
+        client.Host = "smtp.gmail.com";
+        client.Port = 587;
+
+        // setup Smtp authentication
+        System.Net.NetworkCredential credentials =
+            new System.Net.NetworkCredential("peavey8727@gmail.com", "Kimyl2787");
+        client.UseDefaultCredentials = false;
+        client.Credentials = credentials;
+
+        MailMessage msg = new MailMessage();
+        msg.From = new MailAddress("peavey8727@gmail.com");
+        msg.To.Add(new MailAddress("peavey2787@yahoo.com"));
+
+        msg.Subject = "Question/Comment";
+        msg.IsBodyHtml = true;
+        msg.Body = string.Format("<html><head></head><body>" + "From : " + fName + " " + lName + Environment.NewLine +
+            "Email: " + eMail + Environment.NewLine
+            + qComment + "</body>");
+
+        try
+        {
+            client.Send(msg);
+            <h1>Question/Comment Successfully Sent!</h1>
+            <p>Thanks for your question/comment. I will respond asap!</p>
+        }
+        catch (Exception error)
+        {
+            <h1>Question/Comment was NOT sent! Please try again.</h1>
+        }
+
+    }
+
+}
+
+<div class="post" style="float:none">
+    <h2>Have a job offer, or just a question? Feel free to contact me:</h2>
+
+    <div id="contactForm">
+        <form method="post">
+            @AntiForgery.GetHtml()
+
+            <p>First Name:</p>
+            <p>@Html.ValidationMessage("fName")</p>
+            <p><input type="text" name="fName" value="@fName" /></p>
+
+            <p>Last Name:</p>
+            <p>@Html.ValidationMessage("lName")</p>
+            <p><input type="text" name="lName" value="@lName" /></p>
+
+            <p>E-mail:</p>
+            <p>@Html.ValidationMessage("eMail")</p>
+            <p><input type="email" name="eMail" value="@eMail" /></p>
+
+            <p>Question/Comment:</p>
+            <p>@Html.ValidationMessage("qComment")</p>
+            <p><textarea name="qComment" rows="10" cols="20">@qComment</textarea></p>
+            <p><input type="submit" name="Submit" value="Submit" /></p>
+        </form>
+    </div>
+</div>
