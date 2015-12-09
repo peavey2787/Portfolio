@@ -13,12 +13,10 @@
 </head>
 <body class="center">
     <div id="Full_Screen_Wrapper" class="center">
-  	<?php include $_SERVER['DOCUMENT_ROOT'].'/Navigation.php'; ?>
-
-        
+  		<?php include $_SERVER['DOCUMENT_ROOT'].'/Navigation.php'; ?>
 
         <div id="Portfolio_Page">
-	    <div id="Csharp_Border"></div>
+			<div id="Csharp_Border"></div>
             <div id="My_Portfolio"></div>
 	    
             <div id="Csharp">
@@ -36,9 +34,9 @@
             <a href="Dice.php">
                 <img id="GameMaker_Studio" class="Portfolio_Images_Width Portfolio_Images_Margin" src="./Images/GameMaker_Studio.png" alt="GameMaker Studio" />
             </a>
-	    <a href="Project_Description.php?Project=Peavey2787">
-		<img id="Peavey2787" class="Portfolio_Images_Width Portfolio_Images_Margin" src="./Images/Peavey2787.png" alt="Peavey2787 Jamie's Personal Blog Website" />
-	    </a>
+			<a href="Project_Description.php?Project=Peavey2787">
+			<img id="Peavey2787" class="Portfolio_Images_Width Portfolio_Images_Margin" src="./Images/Peavey2787.png" alt="Peavey2787 Jamie's Personal Blog Website" />
+			</a>
         </div>
     </div><!-- End Wrapper -->
 </body>

@@ -12,7 +12,12 @@
         <script src="./Scripts/Load_CSS_Template.js"></script> 
 </head>
 <body class="center">
+	<div id="Full_Screen_Wrapper" class="center">
         <?php include $_SERVER['DOCUMENT_ROOT'].'/Navigation.php'; ?>
+
+		<a href="Contact_Me.cshtml">
+			<div id="CTA_Contact_Me"></div>
+		</a>
 
         <img id="Jamie_Loves_Computers" src="./Images/ByMe_Jamie_Loves_Computers.png" alt="Jamie Horton Loves Computers" />
         <img id="For_Hire" src="./Images/For_Hire.png" alt="Jamie Horton For Hire" />

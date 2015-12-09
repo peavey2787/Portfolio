@@ -120,11 +120,18 @@ body
     margin: 30px auto;
     width: 400px; 
     border: groove;
+    background: radial-gradient(grey, lightgray, white);
+    border-radius: 10px;
+    text-align: center;
+}
+#Contact_Me h2
+{
+    padding: 0 10px 0 40px;
 }
 #Contact_Form 
 {
     margin: 0 auto;
-    width: 350px;
+    width: 180px;
 }
 /* End Contact Me Page */
 

@@ -21,6 +21,22 @@
     font-size: 2.2em; 
 }
 /* Home Page*/
+#CTA_Contact_Me
+{
+    position:absolute;
+    margin: 94px 0 0 1059px;
+    height: 35px;
+    width: 160px;
+    opacity: .1;
+    background-color: aqua; 
+    border-radius: 15px; 
+}
+#CTA_Contact_Me:hover
+{
+    cursor: pointer; 
+    cursor: hand;
+    opacity: .25;
+}
 #Jamie_Loves_Computers
 {
     width: 625px;
@@ -122,11 +138,18 @@
     margin: 30px auto;
     width: 400px; 
     border: groove;
+    background: radial-gradient(grey, lightgray, white);
+    border-radius: 10px;
+    text-align: center;
+}
+#Contact_Me h2
+{
+    padding: 0 10px 0 40px;
 }
 #Contact_Form 
 {
     margin: 0 auto;
-    width: 350px;
+    width: 180px;
 }
 /* End Contact Me Page */
 

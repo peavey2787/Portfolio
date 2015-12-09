@@ -1,31 +1,41 @@
 ﻿@using System.Net.Mail;
-@{ 
-        <title>Contact Me</title>
-        <meta name="description" content="Contact Jamie Horton">
-        <meta name="keywords" content="Jamie Horton's Portfolio,Jamie Horton's Resume,Jamie Horton's Website,Jamie Horton's Web Site,Contact Jamie Horton, Jamie Horton's Contact Page">
-        <meta name="author" content="Jamie Horton">
-        <meta name="copyright" content="Jamie Horton @DateTime.Now.Year">
-    
-
-
+@{
     var fName = HttpContext.Current.Request["fName"];
     var lName = HttpContext.Current.Request["lName"];
     var eMail = HttpContext.Current.Request["eMail"];
     var qComment = HttpContext.Current.Request["qComment"];
     var Submit = HttpContext.Current.Request["Submit"];
+    var Sent_Successfully = false;
+    var Problem_Sending = false;
+}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Contact Me</title>
+        <meta name="description" content="Contact Jamie Horton to discuss an employment offer, ask a question, leave a comment, or volunteer work.">
+        <meta name="keywords" content="contact jamie horton,Jamie Horton's Personal web site,Jamie Horton's website,Jamie Horton's Web Site,Jamie Horton's Portfolio, Jamie Horton's Portfolio Page, Jamie Horton's Resume'">
+        <meta name="author" content="Jamie Horton"> 
+        <meta name="copyright" content="Jamie Horton @DateTime.Now.Year">
 
-    if (IsPost)
+        <!-- Load Proper CSS Template File-->
+        <script src="./Scripts/Load_CSS_Template.js"></script>
+    </head>
+
+
+
+
+    @if (IsPost)
     {
         AntiForgery.Validate();
         SmtpClient client = new SmtpClient();
         client.DeliveryMethod = SmtpDeliveryMethod.Network;
         client.EnableSsl = true;
         client.Host = "smtp.gmail.com";
-        client.Port = 587;
+        client.Port = 587; // was 587
 
         // setup Smtp authentication
         System.Net.NetworkCredential credentials =
-            new System.Net.NetworkCredential("peavey8727@gmail.com", "Kimyl2787");
+        new System.Net.NetworkCredential("peavey8727@gmail.com", "Kimyl2787");
         client.UseDefaultCredentials = false;
         client.Credentials = credentials;
 
@@ -35,48 +45,72 @@
 
         msg.Subject = "Question/Comment";
         msg.IsBodyHtml = true;
-        msg.Body = string.Format("<html><head></head><body>" + "From : " + fName + " " + lName + Environment.NewLine +
-            "Email: " + eMail + Environment.NewLine
-            + qComment + "</body>");
+        msg.Body = string.Format("<html><head><title>Message</title></head><body>" + "From : " + fName + " " + lName + Environment.NewLine +
+         "Email: " + eMail + Environment.NewLine
+         + qComment + "</body></html>");
 
         try
         {
             client.Send(msg);
-            <h1>Question/Comment Successfully Sent!</h1>
-            <p>Thanks for your question/comment. I will respond asap!</p>
+            Sent_Successfully = true;
         }
         catch (Exception error)
         {
-            <h1>Question/Comment was NOT sent! Please try again.</h1>
+            Problem_Sending = true;
+            <h1>Message = </h1> @error.Message;
+            <h1>Inner = </h1> @error.InnerException;
+            <h1>StackTrace = </h1> @error.StackTrace;
         }
 
-    }
+    }  
 
-}
 
-<div class="post" style="float:none">
-    <h2>Have a job offer, or just a question? Feel free to contact me:</h2>
+<body class="center">
+  
+    <div id="Full_Screen_Wrapper" class="center">
+        @RenderPage("~/_Navigation.cshtml")
 
-    <div id="contactForm">
-        <form method="post">
-            @AntiForgery.GetHtml()
 
-            <p>First Name:</p>
-            <p>@Html.ValidationMessage("fName")</p>
-            <p><input type="text" name="fName" value="@fName" /></p>
+        @if (Sent_Successfully)
+        {
+            <h1>Question/Comment Successfully Sent!</h1>
+            <p>Thanks for your question/comment. I will respond asap!</p>
+        }
+        else
+        {
+            if (Problem_Sending)
+            {
+                <h1>Question/Comment was NOT sent! Please try again.</h1>
+            }
 
-            <p>Last Name:</p>
-            <p>@Html.ValidationMessage("lName")</p>
-            <p><input type="text" name="lName" value="@lName" /></p>
 
-            <p>E-mail:</p>
-            <p>@Html.ValidationMessage("eMail")</p>
-            <p><input type="email" name="eMail" value="@eMail" /></p>
+            
+        <div id="Contact_Me">
+            <h2>Have a job offer, or a question? Please contact me:</h2>
+            <div id="Contact_Form"> 
+                <form method="post">
+                    @AntiForgery.GetHtml()
 
-            <p>Question/Comment:</p>
-            <p>@Html.ValidationMessage("qComment")</p>
-            <p><textarea name="qComment" rows="10" cols="20">@qComment</textarea></p>
-            <p><input type="submit" name="Submit" value="Submit" /></p>
-        </form>
+                    <p>First Name:</p>
+                    <p>@Html.ValidationMessage("fName")</p>
+                    <p><input type="text" name="fName" value="@fName" /></p>
+
+                    <p>Last Name:</p>
+                    <p>@Html.ValidationMessage("lName")</p>
+                    <p><input type="text" name="lName" value="@lName" /></p>
+
+                    <p>E-mail:</p>
+                    <p>@Html.ValidationMessage("eMail")</p>
+                    <p><input type="email" name="eMail" value="@eMail" /></p>
+
+                    <p>Question/Comment:</p>
+                    <p>@Html.ValidationMessage("qComment")</p>
+                    <p><textarea name="qComment" rows="10" cols="20">@qComment</textarea></p>
+                    <p><input type="submit" name="Submit" value="Submit" /></p>
+                </form>
+            </div>
+        </div>
+        }
     </div>
-</div>
+</body>
+</html>
