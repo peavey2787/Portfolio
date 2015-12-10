@@ -1,0 +1,167 @@
+#Full_Screen_Wrapper
+{      
+    width: 1400px;
+}
+#TopNavigation
+{      
+    height: 45px;
+    background: black; 
+    color: white;
+}
+#TopNavigation a 
+{
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    text-decoration: none;  
+}
+#TopNavigation a:hover
+{
+    color: grey; 
+    font-size: 2.2em; 
+}
+/* Home Page*/
+#CTA_Contact_Me
+{
+    position:absolute;
+    margin: 94px 0 0 1059px;
+    height: 35px;
+    width: 160px;
+    opacity: .1;
+    background-color: aqua; 
+    border-radius: 15px; 
+}
+#CTA_Contact_Me:hover
+{
+    cursor: pointer; 
+    cursor: hand;
+    opacity: .25;
+}
+#Jamie_Loves_Computers
+{
+    width: 625px;
+    height: 720px;
+    margin: 35px 0px 0px 20px; 
+    padding-bottom: 10px;
+    float:left;
+}
+#For_Hire
+{
+    float:left;
+    vertical-align: top; 
+    margin: 20px 0 0 45px;
+    width: 275px;
+    height: 225px; 
+} 
+#Me
+{
+    float:left;
+    margin: 0 0 0 70px; 
+    padding-top: 20px;
+    width:350px;
+    height:325px;  
+}
+
+#About_Me 
+{
+    position:absolute; 
+    margin: 280px 0 0 670px;
+    width: 700px;
+    font-family: sans-serif; 
+}
+#About_Me p 
+{
+    font-size: 1.14em;
+    padding: 60px 0 0 10px;
+}
+#About_Me h1
+{
+    float:left;
+    margin: 0 0 30px 130px;
+    font-size: 2.5em;
+}
+/* End Home Page*/
+
+/* Portfolio Page */
+#Csharp_Border
+{
+    position:absolute;
+    margin: 160px 0 0 -50px;
+    width: 1490px;
+    height: 590px;
+    background-image: url("./Images/Csharp_Border.png");
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+#My_Portfolio
+{
+    display: block;
+    margin: 0 auto;
+    width: 880px;
+    height: 160px;
+    background-image: url("./Images/ByME_My_Portfolio.png");
+}
+.Portfolio_Images_Width
+{
+    width: 650px;
+}
+.Portfolio_Images_Margin
+{
+    margin: 20px;
+}
+#Csharp 
+{
+    margin: 50px 0 0 0; 
+}
+#Csharp h1 
+{
+    font-size: 2.5em;
+    margin: 10px 0 0 580px;
+}
+#Portfolio_Page a
+{
+    opacity: 0.85
+}
+#Portfolio_Page a:hover
+{
+    opacity: 1;
+}
+#Peavey2787
+{
+    margin: 0 0 0 360px;
+}
+/* End Portfolio Page */
+
+/* Contact Me Page */
+#Contact_Me
+{
+    margin: 30px auto;
+    width: 400px; 
+    border: groove;
+    background: radial-gradient(grey, lightgray, white);
+    border-radius: 10px;
+    text-align: center;
+}
+#Contact_Me h2
+{
+    padding: 0 10px 0 40px;
+}
+#Contact_Form 
+{
+    margin: 0 auto;
+    width: 180px;
+}
+/* End Contact Me Page */
+
+.shadow
+{
+    box-shadow: 0px 2px 5px #888888;
+}
+.roundCorners
+{
+    border-radius: 4px;
+} 
+.center
+ {
+    margin: 0 auto;
+}
