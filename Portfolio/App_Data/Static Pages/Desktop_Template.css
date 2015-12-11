@@ -153,6 +153,76 @@
 }
 /* End Contact Me Page */
 
+/* Resume Page */
+#My_Stats
+{
+    height: 400px;
+    width: 320px;
+    margin: 15px 0 10px 50px;
+}
+.button_Text
+{
+    float:right;
+    margin: 20px 30px 0 0;
+}
+div.button a
+{  
+    display:block; 
+    font-size: 2.5em;
+    text-decoration: none;
+    margin: 0px 0 0 10px;
+    padding: 0px 0 10px 0px;
+    width: 313px;
+    height: 65px;
+    opacity: .75;
+}
+div.button a:link
+{
+    color:black;
+}
+div.button a:visited
+{
+    color:black;
+} 
+div.button a:hover
+{
+    opacity: 1;
+} 
+div.button_Selected a
+{
+    opacity: .85;
+}
+
+.button_Icon
+{ 
+    float:left;
+    margin: 4px 0 0 0;
+    padding: 7px 0 0 10px;
+}
+
+
+
+.button_Selected
+{
+    background-image: url("Images/button_Selected.png");
+    background-repeat: no-repeat;
+    background-size: 340px 75px;
+    width: 340px;
+    height: 70px;
+    margin: 0px 0 0 40px;
+    padding: 0px;  
+}
+.button_Normal
+{
+    background-image: url("Images/button_Normal.png");
+    background-repeat: no-repeat;
+    background-size: 340px 75px;
+    width: 340px;
+    height: 70px;
+    margin: 0px 0 0 40px;
+    padding: 0px;
+}
+/* End Resume Page */
 .shadow
 {
     box-shadow: 0px 2px 5px #888888;
