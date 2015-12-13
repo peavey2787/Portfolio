@@ -4,7 +4,7 @@
 <?php
     $Project = htmlspecialchars($_GET["Project"]);
 
-    echo '<title>Description of $Project</title>
+    echo '<title>Description of ' . $Project . '</title>
 	<meta charset="utf-8" />
     <meta name="description" content="A description of $Project">';?>
     <meta name="keywords" content="contact jamie horton,Jamie Horton's Personal web site,Jamie Horton's website,Jamie Horton's Web Site,Jamie Horton's Portfolio, Jamie Horton's Portfolio Page, Jamie Horton's Resume'">

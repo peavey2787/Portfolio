@@ -10,13 +10,15 @@
 }
 #TopNavigation a 
 {
+    display: inline-block;
     color: white;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     font-size: 2em;
     text-decoration: none;  
 }
 #TopNavigation a:hover
 {
+    margin: 0;
     color: grey; 
     font-size: 2.2em; 
 }
