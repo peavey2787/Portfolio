@@ -89,7 +89,10 @@
                <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
-
+		 <div id="Dice">
+            <p><b>Description: </b>A simple application that will keep score for the classic game of Dice (10,000). I could never seem to find a pen and paper when I needed one so I created this app primarily for my Android phone.</p>                      
+            <p><b>Download Android APK: </b><a href="Download_Files/Dice.apk" target="_blank">Dice Score Keeper zipped</a></p>                          
+        </div>
         <!-- Run the game code -->
         <script type="text/javascript" src="Dice/dice.js?ZHGZB=1795660973"></script>
     </body>

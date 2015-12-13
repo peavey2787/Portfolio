@@ -12,7 +12,8 @@
     <meta name="copyright" content="Jamie Horton 2015">  
 
     <!-- Load Proper CSS Template File-->
-    <script src="./Scripts/Load_CSS_Template.js"></script>
+    <script src="/Scripts/Load_CSS_Template.js"></script>
+		<script>Start(0);</script>
 </head>
 <body class="center">
     <div id="Full_Screen_Wrapper" class="center">

@@ -54,8 +54,8 @@
 #Jamie_Loves_Computers
 {
     width: 625px;
-    height: 720px;
-    margin: 35px 0px 0px 20px; 
+    height: 690px;
+    margin: 15px 0px 0px 20px; 
     padding-bottom: 10px;
     float:left;
 }
@@ -71,14 +71,14 @@
 #About_Me 
 {
     position:absolute; 
-    margin: 280px 0 0 670px;
+    margin: 265px 0 0 670px;
     width: 700px;
     font-family: sans-serif; 
 }
 #About_Me p 
 {
-    font-size: 1.14em;
-    padding: 60px 0 0 10px;
+    font-size: 1.13em;
+    padding: 60px 0 0 0;
 }
 #About_Me h1
 {
@@ -136,6 +136,71 @@
 {
     margin: 0 0 0 360px;
 }
+#Portfolio_Content
+{
+    margin: 0 auto;
+    width: 1350px;
+}
+#Portfolio_Content table
+{
+    width: 1350px;
+}
+#Portfolio_Content td 
+{ 
+    vertical-align: top;
+    text-align: center;
+    padding: 0 20px 40px 0;
+}
+#Portfolio_Content th
+{
+    font-size: 1.8em;
+    padding: 15px; 
+}
+#Portfolio_Content p
+{ 
+    text-align: left;
+    margin: 0px 0px 0 40px;
+    font-size: 1.1em;
+}
+#Auto_VPN
+{ 
+    width: 500px;
+    height: 500px;
+}
+#Auto_Move_Files
+{
+    width: 500px;
+    height: 500px;
+}
+#WatchME
+{
+    width: 600px; 
+}
+#JamieDLL
+{
+    height: 400px;
+    width: 500px;
+}
+#Dice
+{
+    width: 500px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+#Peavey2787_Preview
+{
+    width: 1100px;
+    height: 800px; 
+    text-align: center;
+}
+#Seating_Chart 
+{
+    width: 630px;    
+}
+#Cplusplus_table td
+{
+    padding: 20px 50px 20px 50px;
+}
 /* End Portfolio Page */
 
 /* Contact Me Page */
@@ -164,7 +229,7 @@
 {
     height: 400px;
     width: 320px;
-    margin: 15px 0 10px 50px;
+    margin: 15px 0 10px 25px;
 }
 #Left_Side_Bar
 {
@@ -173,18 +238,22 @@
 #Resume_Content
 {
     float: left;
-    margin: 20px 0 0px 50px;
-    width: 900px; 
+    margin: 15px 0 0 0px;
+    width: 975px; 
+    min-height: 685px; 
+    border: 4px solid black;
+    border-radius: 10px; 
+}
+#Resume_Content h1
+{
+    margin: 10px auto;
+    width: 230px;
 }
 #Resume_Content p
 {
     font-size: 1.2em; 
-}
-#Resume_Content
-{
-    border: 4px solid black;
-    border-radius: 10px; 
-}
+    margin: 15px 20px 10px 35px;
+} 
 #Resume_Content th
 {
     text-align: left;
@@ -194,11 +263,9 @@
 #Resume_Content td
 {
     vertical-align: top;
-    padding: 0 8px 20px 25px;
+    padding: 0 8px 10px 25px;
     margin: 0;  
 }
-
-
 .button_Text
 {
     float:right;
@@ -231,16 +298,12 @@ div.button_Selected a
 {
     opacity: .85;
 }
-
 .button_Icon
 { 
     float:left;
     margin: 4px 0 0 0;
     padding: 7px 0 0 10px;
 }
-
-
-
 .button_Selected
 {
     background-image: url("Images/button_Selected.png");
@@ -248,7 +311,7 @@ div.button_Selected a
     background-size: 340px 75px;
     width: 340px;
     height: 70px;
-    margin: 0px 0 0 40px;
+    margin: 0px 0 0 15px;
     padding: 0px;  
 }
 .button_Normal
@@ -258,10 +321,17 @@ div.button_Selected a
     background-size: 340px 75px;
     width: 340px;
     height: 70px;
-    margin: 0px 0 0 40px;
+    margin: 0px 0 0 15px;
     padding: 0px;
 }
 /* End Resume Page */
+.Horizontal_Separator
+{ 
+    display: block;
+    margin: 0 auto;
+    padding-right: 15px;
+    width: 95%;
+}
 .shadow
 {
     box-shadow: 0px 2px 5px #888888;
