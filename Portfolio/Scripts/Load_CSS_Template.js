@@ -18,6 +18,12 @@ function Start(Folders_Deep) {
         if (Folders_Deep == 1) {
             Prefix = "../";
         }
+        if (Folders_Deep == 2) {
+            Prefix = "../../";
+        }
+        if (Folders_Deep == 3) {
+            Prefix = "../../../";
+        }
 
         console.log("Browser Screen Width: " + window.innerWidth);
         console.log("Hostname: " + window.location.hostname);

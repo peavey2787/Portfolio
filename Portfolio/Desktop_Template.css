@@ -20,11 +20,25 @@
     color: grey; 
     font-size: 2.2em; 
 }
-/* Home Page*/
+/* Home Page*/ 
+#flash_CTA_Contact_Me
+{
+    float:left;
+    margin: 20px 0 0 80px;  
+    width:350px;
+    height:325px;  
+}
+#image_CTA_Contact_Me
+{
+    float:left;
+    margin: 0;  
+    width:350px;
+    height:325px;  
+}
 #CTA_Contact_Me
 {
     position:absolute;
-    margin: 94px 0 0 1059px;
+    margin: 76px 0 0 25px;
     height: 35px;
     width: 160px;
     opacity: .1;
@@ -53,14 +67,6 @@
     width: 275px;
     height: 225px; 
 } 
-#Me
-{
-    float:left;
-    margin: 0 0 0 70px; 
-    padding-top: 20px;
-    width:350px;
-    height:325px;  
-}
 
 #About_Me 
 {
@@ -153,6 +159,109 @@
 }
 /* End Contact Me Page */
 
+/* Resume Page */
+#My_Stats
+{
+    height: 400px;
+    width: 320px;
+    margin: 15px 0 10px 50px;
+}
+#Left_Side_Bar
+{
+    float: left;
+}
+#Resume_Content
+{
+    float: left;
+    margin: 20px 0 0px 50px;
+    width: 900px; 
+}
+#Resume_Content p
+{
+    font-size: 1.2em; 
+}
+#Resume_Content
+{
+    border: 4px solid black;
+    border-radius: 10px; 
+}
+#Resume_Content th
+{
+    text-align: left;
+    font-size: 1.8em; 
+    padding: 5px 0 0 60px; 
+}
+#Resume_Content td
+{
+    vertical-align: top;
+    padding: 0 8px 20px 25px;
+    margin: 0;  
+}
+
+
+.button_Text
+{
+    float:right;
+    margin: 13px 30px 0 0;
+}
+div.button a
+{  
+    display:block; 
+    font-size: 2.5em;
+    text-decoration: none;
+    margin: 0px 0 0 10px;
+    padding: 0px 0 10px 0px;
+    width: 313px;
+    height: 65px;
+    opacity: .75;
+}
+div.button a:link
+{
+    color:black;
+}
+div.button a:visited
+{
+    color:black;
+} 
+div.button a:hover
+{
+    opacity: 1;
+} 
+div.button_Selected a
+{
+    opacity: .85;
+}
+
+.button_Icon
+{ 
+    float:left;
+    margin: 4px 0 0 0;
+    padding: 7px 0 0 10px;
+}
+
+
+
+.button_Selected
+{
+    background-image: url("Images/button_Selected.png");
+    background-repeat: no-repeat;
+    background-size: 340px 75px;
+    width: 340px;
+    height: 70px;
+    margin: 0px 0 0 40px;
+    padding: 0px;  
+}
+.button_Normal
+{
+    background-image: url("Images/button_Normal.png");
+    background-repeat: no-repeat;
+    background-size: 340px 75px;
+    width: 340px;
+    height: 70px;
+    margin: 0px 0 0 40px;
+    padding: 0px;
+}
+/* End Resume Page */
 .shadow
 {
     box-shadow: 0px 2px 5px #888888;
