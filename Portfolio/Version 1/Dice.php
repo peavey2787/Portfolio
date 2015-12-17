@@ -11,29 +11,22 @@
 
         <!-- Set the title bar of the page -->
         <title>Dice Score Keeper</title>
-		<link href="/Desktop_Template.css" rel="stylesheet"></link>
+
+		<!-- Load Proper CSS Template File-->
+        <script src="./Scripts/Load_CSS_Template.js"></script> 
+		<script>Start(0);</script>
         <!-- Set the background colour of the document -->
-        <style>
-            body {
-              background-color: lightgrey; 
-              margin: 0px;
+	<style>
+           body { 
+              margin: 0px auto;
               padding: 0px;
               border: 0px;
-            }
-			#Dice_Wrapper
-            {
-                   margin: 20px auto;
-                   width: 640px;
-            }
-			#Dice_Wrapper h1
-            { 
-                 text-align: center;
             }
             canvas {
                       image-rendering: optimizeSpeed;
                       -webkit-interpolation-mode: nearest-neighbor;
                       -ms-touch-action: none;
-                      margin: 0px;
+                       margin: 0px;
                       padding: 0px;
                       border: 0px;
             }
@@ -43,9 +36,9 @@
             }
             div.gm4html5_div_class
             {
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
+				 margin: 0;
+				 padding: 0px;
+				 border: 0px;
             }
             /* START - Login Dialog Box */
             div.gm4html5_login
@@ -75,31 +68,34 @@
                width: 100%;
                height: 100%;
             }
+    	    #Title { 
+                 margin: 0 auto;
+				 width: 350px;
+            }
         </style>
     </head>
 
     <body>
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/navigation.php'; ?>
-		<div id="Dice_Wrapper">
-			<h1>Dice (10,000) Score Keeper</h1>
-			<div class="gm4html5_div_class" id="gm4html5_div_id">
-				<!-- Create the canvas element the game draws to -->
-				<canvas id="canvas" width="640" height="480">
-				   <p>Your browser doesn't support HTML5 canvas.</p>
-				</canvas>
-			</div>
-			<p> 
-				<b>Description: </b>A simple application that will keep score for the classic game of Dice (10,000). I cold never seem to find a pen and paper when I needed one so I created this app primarily for my Android phone.
-			</p>
-			<p><b>Android APK: </b><a href="/Dice/Dice.apk">Download Dice.APK</a></p>
-		</div>
+	<div id="Full_Screen_Wrapper" class="center">
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/Navigation.php'; ?>
+
+	<div id="Title">
+	    <h1>10,000 Dice Score Keeper</h1>
+	</div>
+
+        <div class="gm4html5_div_class" id="gm4html5_div_id">
+            <!-- Create the canvas element the game draws to -->
+            <canvas id="canvas" width="640" height="480">
+               <p>Your browser doesn't support HTML5 canvas.</p>
+            </canvas>
+        </div>
+		 <div id="Dice">
+            <p><b>Description: </b>A simple application that will keep score for the classic game of Dice (10,000). I could never seem to find a pen and paper when I needed one so I created this app primarily for my Android phone.</p>                      
+            <p><b>Download Android APK: </b><a href="Download_Files/Dice.apk" target="_blank">Dice Score Keeper zipped</a></p>                          
+        </div>
         <!-- Run the game code -->
-        <script type="text/javascript" src="/Dice/dice.js?ZHGZB=1795660973"></script>
-		
-		<div id="Page_Nation">
-			<a href="/Portfolio/Portfolio.php?Project=Cplusplus_School_Projects"><img src="/Images/Back.png" alt="Back"></a>
-			<a href="/Portfolio/Portfolio.php?Project=Peavey2787"><img id="Next" src="/Images/Next.png" alt="Next"></a>
-		</div>
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; ?>
+        <script type="text/javascript" src="Dice/dice.js?ZHGZB=1795660973"></script>
+	</div><!-- End Wrapper -->
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/Footer.php'; ?>
     </body>
 </html>

@@ -1,6 +1,4 @@
-<div id="Resume_Content">
-
-  <table id="Skills_Table">
+<table>
     <tr>
       <th>Soft Skills</th>
       <th>Hard Skills</th>
@@ -25,7 +23,7 @@
 
     <tr>
       <td colspan="2">
-        <img class="Horizontal_Separator" src="../Images/Horizontal_Separator.png" alt="Horizontal Separator" />
+        <img class="Horizontal_Separator" src="/Images/Horizontal_Separator.png" alt="Horizontal Separator" />
       </td>
     </tr>
 
@@ -47,6 +45,4 @@
         <p>•Limited experience with Linux and Mac OSX</p>
       </td>
     </tr>
-  </table>
-</div>
-<!-- End Content -->
+</table>

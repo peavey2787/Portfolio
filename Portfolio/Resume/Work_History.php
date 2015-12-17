@@ -1,6 +1,4 @@
-<div id="Resume_Content">
-
-  <table id="Work_History_Table">
+<table>
     <tr>
       <th>CrowdSource</th>
       <th>Customer Service</th>
@@ -10,9 +8,9 @@
       <td>
         <p>
           Employer: Appen
-          <br /> <br />
+          <br /> <br /> <br />
           Employed Through: November 15, 2014 – Present
-          <br /> <br />
+          <br /> <br /> 
           Duties Performed:
           <br /> <br />
           • Evaluate Web Search Results
@@ -46,7 +44,7 @@
 
     <tr>
       <td colspan="2">
-        <img class="Horizontal_Separator" src="../Images/Horizontal_Separator.png" alt="Horizontal Separator" />
+        <img class="Horizontal_Separator" src="/Images/Horizontal_Separator.png" alt="Horizontal Separator" />
       </td>
     </tr>
 
@@ -70,13 +68,11 @@
           Employer: Tyson - Logansport, Indiana
           <br />
           Employed Through: August 2007 – March 2011
-          <br /> <br />
+          <br /> <br /> <br /> <br />
           Employer: Long John Silvers - Kokomo, Indiana
           <br />
           Employed Through: July 2006 – July 2007
         </p>
       </td>
     </tr>
-  </table>
-</div>
-<!-- End Content -->
+</table>

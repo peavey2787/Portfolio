@@ -1,6 +1,5 @@
-<div id="Resume_Content">
-  <table id="Education_Table">
-    <tr>
+<table>
+	<tr>
       <th>College</th>
       <th>Relevant Classes</th>
     </tr>
@@ -38,7 +37,7 @@
 
     <tr>
       <td colspan="2">
-        <img class="Horizontal_Separator" src="../Images/Horizontal_Separator.png" alt="Horizontal Separator" />
+        <img class="Horizontal_Separator" src="/Images/Horizontal_Separator.png" alt="Horizontal Separator" />
       </td>
     </tr>
 
@@ -69,6 +68,4 @@
         </p>
       </td>
     </tr>
-  </table>
-</div>
-<!-- End Content -->
+</table>

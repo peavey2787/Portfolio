@@ -1,215 +1,308 @@
+body
+{ 
+    background-color: lightgrey;
+}
 #Full_Screen_Wrapper
 {      
-    width: 1400px;
+    width: 960px;
+    min-height: 580px;  
 }
-#TopNavigation
-{      
-    height: 45px;
-    background: black; 
-    color: white;
+header
+{ 
+    background-color:black; 
 }
-#TopNavigation a 
-{
-    display: inline-block;
-    color: white;
-    padding: 0px 10px 10px 10px;
-    font-size: 2em;
-    text-decoration: none;  
-}
-#TopNavigation a:hover
-{
-    margin: 0;
-    color: grey; 
-    font-size: 2.2em; 
-}
-/* Home Page*/ 
-#flash_CTA_Contact_Me
-{
-    float:left;
-    margin: 20px 0 0 80px;  
-    width:350px;
-    height:325px;  
-}
-#image_CTA_Contact_Me
-{
-    float:left;
-    margin: 0;  
-    width:350px;
-    height:325px;  
-}
-#CTA_Contact_Me
-{
-    position:absolute;
-    margin: 76px 0 0 25px;
-    height: 35px;
-    width: 160px;
-    opacity: .1;
-    background-color: aqua; 
-    border-radius: 15px; 
-}
-#CTA_Contact_Me:hover
-{
-    cursor: pointer; 
-    cursor: hand;
-    opacity: .25;
-}
-#Jamie_Loves_Computers
-{
-    width: 625px;
-    height: 690px;
-    margin: 15px 0px 0px 20px; 
-    padding-bottom: 10px;
-    float:left;
-}
-#For_Hire
-{
-    float:left;
-    vertical-align: top; 
-    margin: 20px 0 0 45px;
-    width: 275px;
-    height: 225px; 
+nav
+{ 
+    height: 40px;
 } 
+nav div
+{
+    width: 500px; 
+}
+nav a
+{
+    display:inline-block;
+    font-size: 26px;
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+}
+nav a:hover
+{ 
+    font-size: 30px;
+    padding: 0px;
+    color: lightgrey;
+    cursor: pointer;
+}
 
-#About_Me 
-{
-    position:absolute; 
-    margin: 265px 0 0 670px;
-    width: 700px;
-    font-family: sans-serif; 
-}
-#About_Me p 
-{
-    font-size: 1.13em;
-    padding: 60px 0 0 0;
-}
-#About_Me h1
-{
-    float:left;
-    margin: 0 0 30px 130px;
-    font-size: 2.5em;
-}
-/* End Home Page*/
 
-/* Portfolio Page */
-#Csharp_Border
-{
-    position:absolute;
-    margin: 160px 0 0 -50px;
-    width: 1490px;
-    height: 590px;
-    background-image: url("./Images/Csharp_Border.png");
-    background-repeat: no-repeat;
-    z-index: -10;
+
+
+
+
+/* Home Page */
+#Greetings_Wrapper
+{  
+    width: 960px;
+    height: 300px;
+    padding-top:20px;  
 }
-#My_Portfolio
+#For_Hire_Badge
+{
+    position: absolute;
+    display:inline-block; 
+    width: 225px;
+    height: 200px;
+    margin: 0px 0px 0 53px;
+}
+#Greetings
 {
     display: block;
-    margin: 0 auto;
-    width: 880px;
-    height: 160px;
-    background-image: url("./Images/ByME_My_Portfolio.png");
-}
-.Portfolio_Images_Width
+    float:right; 
+    width: 340px;
+    height: 350px; 
+} 
+#Greetings_Flash
 {
-    width: 650px;
-}
-.Portfolio_Images_Margin
+    display: block;
+    float:right; 
+    width: 340px;
+    height: 350px;  
+} 
+#About_Me_Wrapper h1
 {
-    margin: 20px;
+    margin: -90px 0 0 0;
+    padding-left: 45px;
+    font-size: 56px;
 }
-#Csharp 
+#About_Me_Wrapper p
 {
-    margin: 50px 0 0 0; 
+    padding:20px;
+    font-size: 20px;
 }
-#Csharp h1 
+#Jamie_Loves_Computers
+{   
+    height: 300px;
+    margin: 0 0 0 330px;
+    
+}
+/* End Home Page */
+
+
+
+
+
+
+
+
+
+
+/* Portfolio Page */
+#My_Portfolio
 {
-    font-size: 2.5em;
-    margin: 10px 0 0 580px;
+    text-align:center;
+    font-size: 54px;
+    margin: 10px;
 }
-#Portfolio_Page a
+#Csharp
 {
-    opacity: 0.85
+    border:solid;
+    margin: 0 0 30px 0;
 }
-#Portfolio_Page a:hover
+#Csharp h1
+{
+    text-align:center;
+}
+#Portfolio_Wrapper img
+{
+    display:inline-block;
+    height: 350px;
+    width: 469px;
+    margin-bottom: 50px;
+    opacity: 0.85;
+}
+#Portfolio_Wrapper img:hover
 {
     opacity: 1;
 }
 #Peavey2787
 {
-    margin: 0 0 0 360px;
-}
-#Portfolio_Content
-{
-    margin: 0 auto;
-    width: 1350px;
-}
-#Portfolio_Content table
-{
-    width: 1350px;
-}
-#Portfolio_Content td 
-{ 
-    vertical-align: top;
-    text-align: center;
-    padding: 0 20px 40px 0;
-}
-#Portfolio_Content th
-{
-    font-size: 1.8em;
-    padding: 15px; 
-}
-#Portfolio_Content p
-{ 
-    text-align: left;
-    margin: 0px 0px 0 40px;
-    font-size: 1.1em;
-}
-#Auto_VPN
-{ 
-    width: 500px;
-    height: 500px;
-}
-#Auto_Move_Files
-{
-    width: 500px;
-    height: 500px;
-}
-#WatchME
-{
-    width: 600px; 
-}
-#JamieDLL
-{
-    height: 400px;
-    width: 500px;
-}
-#Dice
-{
-    width: 500px;
-    margin: 0 auto;
-    font-size: 1.1em;
-}
-#Peavey2787_Preview
-{
-    width: 1100px;
-    height: 800px; 
-    text-align: center;
-}
-#Seating_Chart 
-{
-    width: 630px;    
-}
-#Cplusplus_table td
-{
-    padding: 20px 50px 20px 50px;
+    margin-left:245px;
 }
 /* End Portfolio Page */
 
-/* Contact Me Page */
+
+
+
+
+
+
+/* Project Description Page */
+#Peavey2787_Wrapper
+{
+    margin: 0 auto;
+    width: 445px; 
+}
+#Project_Description h1
+{ 
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 50px 0;
+}
+#Project_Description img
+{
+    display:block;
+    height: 300px;
+    width: 440px; 
+}
+#Project_Description th
+{
+    font-size: 24px;
+}
+#Project_Description td
+{
+    vertical-align: top;
+    padding: 0 40px 0 5px;
+}
+#Page_Nation
+{
+    margin: 0 auto;
+    width: 120px;   
+} 
+#Page_Nation img
+{
+    display:inline-flex;
+    height: 50px;
+    width: 50px; 
+}
+/* End Project Description Page */
+
+
+
+
+
+
+
+
+
+
+/* Resume Page */
+#Left_Side_Bar
+{ 
+    float:left; 
+    width: 230px; 
+    margin-top: 0px; 
+    text-align:right; 
+    font-size: 24px;
+}
+#My_Stats
+{
+    display:block;
+    height: 300px;
+    width: 210px;
+    margin: 0 0 10px 0px; 
+}
+#Left_Side_Bar .button
+{
+    display:block;
+    background-image: url("/Images/button.png");
+    background-size: cover;
+    height: 45px;
+    width: 210px;
+    margin: 0; 
+    padding: 10px 0 0 0; 
+    text-decoration: none;
+    color:black;
+} 
+#Left_Side_Bar .button_Selected
+{
+    display:block;
+    background-image: url("/Images/button_Selected.png");
+    background-size: cover;
+    height: 45px;
+    width: 210px;
+    margin: 0;  
+    padding: 10px 0 0 0; 
+    text-decoration: none; 
+    color:black;
+}
+#Left_Side_Bar .button img
+{
+    height: 30px;
+    float:left;
+    margin: 3px 0 0 15px;
+}
+#Left_Side_Bar .button_Selected img
+{
+    height: 30px;
+    float:left;
+    margin: 3px 0 0 15px;
+}
+#Left_Side_Bar .button:hover
+{
+    background-color: darkgrey;
+    background-image: url("/Images/button_Selected.png");
+    background-size: cover; 
+    border-radius: 10px;
+}
+#Left_Side_Bar .button_Selected:hover
+{
+    background-color: darkgrey; 
+    border-radius: 10px;
+}
+#About_Me_Content
+{ 
+    display:block; 
+    width: 693px;
+    margin: 20px 0 0 230px;
+    border: solid;
+    padding: 0 20px 0px 20px;
+}
+#About_Me_Content h1
+{
+    font-size: 28px;
+    margin: 0;
+    text-align:center;
+}
+#About_Me_Content p
+{
+    font-size: 18px;
+}
+#Resume_Wrapper
+{
+     min-height: 535px;
+}
+#Resume_Wrapper table
+{
+    margin: 20px 0 0 0;
+    border: solid;
+}
+#Resume_Wrapper th
+{
+    font-size: 22px;   
+}
+#Resume_Wrapper td
+{
+    vertical-align: top;
+    padding: 0 10px 0 10px;
+    font-size: 18px;  
+}
+/* End Resume Page */
+
+
+
+
+
+
+
+
+
+/* Contact Me Page */ 
 #Contact_Me
 {
     margin: 30px auto;
-    width: 400px; 
+    width: 400px;  
+	height: 600px;
     border: groove;
     background: radial-gradient(grey, lightgray, white);
     border-radius: 10px;
@@ -223,126 +316,75 @@
 {
     margin: 0 auto;
     width: 180px;
-}
+} 
 /* End Contact Me Page */
 
-/* Resume Page */
-#My_Stats
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer
 {
-    height: 400px;
-    width: 320px;
-    margin: 15px 0 10px 25px;
+    margin: 20px 0 0 0;
+    width: 100%; 
+    height: 420px;
+    padding: 0;
+    background-color: grey; 
+    box-shadow: 0px -5px 5px 2px;
 }
-#Left_Side_Bar
+#Footer_Wrapper
 {
-    float: left;
+	width: 960px
 }
-#Resume_Content
+#Site_Map
 {
-    float: left;
-    margin: 15px 0 0 0px;
-    width: 975px; 
-    min-height: 685px; 
-    border: 4px solid black;
-    border-radius: 10px; 
-}
-#Resume_Content h1
-{
-    margin: 10px auto;
-    width: 230px;
-}
-#Resume_Content p
-{
-    font-size: 1.2em; 
-    margin: 15px 20px 10px 35px;
+	  float:left;
+	  width: 360px; 
+    margin: 0 0 0 50px;
 } 
-#Resume_Content th
-{
-    text-align: left;
-    font-size: 1.8em; 
-    padding: 5px 0 0 60px; 
+#Site_Map a
+{ 
+    font-size: 22px;
 }
-#Resume_Content td
-{
-    vertical-align: top;
-    padding: 0 8px 10px 25px;
-    margin: 0;  
-}
-.button_Text
-{
-    float:right;
-    margin: 13px 30px 0 0;
-}
-div.button a
+#Contact_Info
 {  
-    display:block; 
-    font-size: 2.5em;
-    text-decoration: none;
-    margin: 0px 0 0 10px;
-    padding: 0px 0 10px 0px;
-    width: 313px;
-    height: 65px;
-    opacity: .75;
-}
-div.button a:link
-{
-    color:black;
-}
-div.button a:visited
-{
-    color:black;
-} 
-div.button a:hover
-{
-    opacity: 1;
-} 
-div.button_Selected a
-{
-    opacity: .85;
-}
-.button_Icon
-{ 
     float:left;
-    margin: 4px 0 0 0;
-    padding: 7px 0 0 10px;
+    margin: 0 0 0 50px;
+    width: 300px;
+    text-align: center; 
 }
-.button_Selected
+#Contact_Info p
 {
-    background-image: url("Images/button_Selected.png");
-    background-repeat: no-repeat;
-    background-size: 340px 75px;
-    width: 340px;
-    height: 70px;
-    margin: 0px 0 0 15px;
-    padding: 0px;  
+    font-size: 26px;
+    margin: 0;
 }
-.button_Normal
+#Connect_With_Me
 {
-    background-image: url("Images/button_Normal.png");
-    background-repeat: no-repeat;
-    background-size: 340px 75px;
-    width: 340px;
-    height: 70px;
-    margin: 0px 0 0 15px;
-    padding: 0px;
+    float:left;
+    margin: 0 0 0 110px;
+    width: 400px; 
 }
-/* End Resume Page */
+#Contact_Info img
+{
+    width: 80px; 
+}
+/* End Footer */
+
+
+
+
 .Horizontal_Separator
-{ 
-    display: block;
-    margin: 0 auto;
-    padding-right: 15px;
-    width: 95%;
-}
-.shadow
 {
-    box-shadow: 0px 2px 5px #888888;
+    width: 680px;
+    display:inline-block;
 }
-.roundCorners
-{
-    border-radius: 4px;
-} 
 .center
- {
+{
     margin: 0 auto;
 }
