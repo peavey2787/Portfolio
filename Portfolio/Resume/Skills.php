@@ -34,15 +34,55 @@
 
     <tr>
       <td>
-        <p>•Advanced in C# and .NET</p>
-        <p>•Intermediate in MySQL, HTML, CSS</p>
-        <p>•Novice in C++, PHP, JavaScript, jQuery, ActionScript 3.0</p>
+        <p>•<font color="green">Advanced</font> in C#, .NET, HTML</p>
+        <br />
+        <p>•<font color="purple">Intermediate</font> in MySQL, CSS, PHP</p>
+        <br />
+        <p>•<font color="blue">Novice</font> in C++, JavaScript, jQuery, ActionScript 3.0</p>
       </td>
       <td>
-        <p>•Advanced in Visual Studio 2015, WebMatrix, Windows 98, XP, 7, and 8</p>
-        <p>•Intermediate in PhotoShop CS6, Adobe Illustrator CC, GitHub, TFS, Windows Server 2012</p>
-        <p>•Novice in  Dreamweaver CS6, Adobe Flash Pro (Now Animate), GameMaker Studio</p>
-        <p>•Limited experience with Linux and Mac OSX</p>
+        <p>•<font color="green">Advanced</font> in Visual Studio 2015, WebMatrix, Windows 98, XP, 7, and 8, Microsoft Office</p>
+        <p>•<font color="purple">Intermediate</font> in PhotoShop CS6, Adobe Illustrator CC, GitHub, TFS, Windows Server 2012</p>
+        <p>•<font color="blue">Novice</font> in  Dreamweaver CS6, Adobe Flash Pro (Now Animate), GameMaker Studio, Linux, and Mac OSX</p>
       </td>
     </tr>
+
+  <tr>
+    <td>
+      <p>
+        <font color="green">Advanced:</font> The area I am most proficient in. I have an in-depth working knowledge in the area.
+      </p>
+    </td>
+    <td>
+      <p>
+        <font color="green">Advanced:</font> The software I use daily. I very rarely have to refer to documentation.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <p>
+        <font color="purple">Intermediate:</font> I know the syntax, and have working knowledge in the area.
+      </p>
+    </td>
+    <td>
+      <p>
+        <font color="purple">Intermediate:</font> I'm still learning, and use them at least once a week.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <p>
+        <font color="blue">Novice:</font> I know the basic syntax, but have to refer to documentation.
+      </p>
+    </td>
+    <td>
+      <p>
+        <font color="blue">Novice:</font> I've used them infrequently, and can perform basic tasks.
+      </p>
+    </td>
+  </tr> 
 </table>

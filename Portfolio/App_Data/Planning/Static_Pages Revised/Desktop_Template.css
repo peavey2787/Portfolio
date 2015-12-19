@@ -1,0 +1,316 @@
+body
+{ 
+    background-color: lightgrey;
+}
+#Full_Screen_Wrapper
+{      
+    width: 960px;
+    min-height: 560px; 
+}
+header
+{ 
+    background-color:black; 
+}
+nav
+{ 
+    height: 40px;
+} 
+nav div
+{
+    width: 470px; 
+}
+nav a
+{
+    display:inline-block;
+    font-size: 28px;
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+}
+nav a:hover
+{ 
+    font-size: 34px;
+    padding: 0px;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Home Page */
+#Greetings_Wrapper
+{  
+    width: 766px;
+    height: 300px;
+    padding-top:20px; 
+}
+#For_Hire_Badge
+{
+    position: absolute;
+    display:inline-block; 
+    width: 225px;
+    height: 200px;
+    margin: 0px 0px 0 0;
+}
+#Greetings
+{
+    display: block;
+    float:right; 
+    width: 425px;
+    height: 350px;
+} 
+#About_Me_Wrapper h1
+{
+    margin: -90px 0 0 0;
+    padding-left: 60px;
+    font-size: 56px;
+}
+#About_Me_Wrapper p
+{
+    padding:20px;
+    font-size: 20px;
+}
+/* End Home Page */
+
+
+
+
+
+
+
+
+
+
+/* Portfolio Page */
+#My_Portfolio
+{
+    text-align:center;
+    font-size: 54px;
+    margin: 10px;
+}
+#Csharp
+{
+    border:solid;
+    margin: 0 0 30px 0;
+}
+#Csharp h1
+{
+    text-align:center;
+}
+#Portfolio_Wrapper img
+{
+    display:inline-block;
+    height: 350px;
+    width: 469px;
+    margin-bottom: 50px; 
+}
+#Peavey2787
+{
+    margin-left:245px;
+}
+/* End Portfolio Page */
+
+
+
+
+
+
+
+/* Project Description Page */
+#Peavey2787_Wrapper
+{
+    margin: 0 auto;
+    width: 445px; 
+}
+#Project_Description h1
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 50px 0;
+}
+#Project_Description img
+{
+    display:block;
+    height: 300px;
+    width: 440px; 
+}
+#Project_Description th
+{
+    font-size: 24px;
+}
+#Project_Description td
+{
+    vertical-align: top;
+    padding: 0 40px 0 5px;
+}
+#Page_Nation
+{
+    margin: 0 auto;
+    width: 120px;   
+} 
+#Page_Nation img
+{
+    display:inline-flex;
+    height: 50px;
+    width: 50px; 
+}
+/* End Project Description Page */
+
+
+
+
+
+
+
+
+
+
+/* Resume Page */
+#Left_Side_Bar
+{ 
+    float:left; 
+    width: 230px; 
+    margin-top: 20px; 
+}
+#My_Stats
+{
+    display:block;
+    height: 300px;
+    width: 210px;
+    margin: 0 0 0 0px; 
+}
+#Left_Side_Bar .button_Selected
+{
+    height: 40px;
+    width: 210px;
+    margin: 10px 0 0 0;
+    background-color: darkgrey; 
+    text-align:center;  
+    padding-top: 10px;
+    font-size: 24px; 
+}
+#Left_Side_Bar .button
+{
+    height: 40px;
+    width: 210px;
+    margin: 10px 0 0 0;
+    background-color: grey; 
+    text-align:center;  
+    padding-top: 10px;
+}
+#Left_Side_Bar .button a
+{ 
+    color:blue;
+    text-decoration: none;
+    font-size: 24px;
+}
+#Left_Side_Bar .button:hover
+{
+    background-color: darkgrey;
+    text-decoration: none;
+    font-size: 24px; 
+}
+
+#Resume_Content
+{ 
+    display:inline-block;
+    min-height: 540px;
+    width: 683px;
+    margin: 20px 0 0 0px;
+    border: solid;
+    padding: 0  20px 20px 20px;
+}
+#Resume_Content h1
+{
+    font-size: 50px;
+    margin:0;
+    text-align:center;
+}
+#Resume_Content p
+{
+    font-size: 20px;
+}
+/* End Resume Page */
+
+
+
+
+
+
+
+
+
+/* Contact Me Page */
+#Contact_Me_Wrapper
+{
+    width: 400px;
+    text-align:center;
+    margin-top: 20px;
+    border:solid;
+}
+/* End Contact Me Page */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer
+{
+    margin: 20px 0 0 0;
+    width: 100%; 
+    height: 420px;
+    padding: 0;
+    background-color: grey; 
+    box-shadow: 0px -5px 5px 2px;
+}
+#Footer_Wrapper
+{
+	width: 960px
+}
+#Site_Map
+{
+	  float:left;
+	  width: 360px; 
+    margin: 0 0 0 50px;
+} 
+#Site_Map a
+{ 
+    font-size: 22px;
+}
+#Contact_Info
+{  
+    float:left;
+    margin: 0 0 0 50px;
+    width: 300px;
+    text-align: center; 
+}
+#Contact_Info p
+{
+    font-size: 26px;
+    margin: 0;
+}
+#Connect_With_Me
+{
+    float:left;
+    margin: 0 0 0 110px;
+    width: 400px; 
+}
+#Contact_Info img
+{
+    width: 80px; 
+}
+/* End Footer */
+
+.center
+{
+    margin: 0 auto;
+}

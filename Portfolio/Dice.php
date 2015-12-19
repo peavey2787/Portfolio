@@ -89,7 +89,7 @@
 				</canvas>
 			</div>
 			<p> 
-				<b>Description: </b>A simple application that will keep score for the classic game of Dice (10,000). I cold never seem to find a pen and paper when I needed one so I created this app primarily for my Android phone.
+				<b>Description: </b>A simple application that will keep score for the classic game of Dice (10,000). I could never seem to find a pen and paper when I needed one so I created this app primarily for my Android phone.
 			</p>
 			<p><b>Android APK: </b><a href="/Dice/Dice.apk">Download Dice.APK</a></p>
 		</div>
@@ -97,8 +97,7 @@
         <script type="text/javascript" src="/Dice/dice.js?ZHGZB=1795660973"></script>
 		
 		<div id="Page_Nation">
-			<a href="/Portfolio/Portfolio.php?Project=Cplusplus_School_Projects"><img src="/Images/Back.png" alt="Back"></a>
-			<a href="/Portfolio/Portfolio.php?Project=Peavey2787"><img id="Next" src="/Images/Next.png" alt="Next"></a>
+			<a href="/Portfolio/Portfolio.php?Project=Cplusplus_School_Projects"><img src="/Images/Back.png" alt="Back"></a> 
 		</div>
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; ?>
     </body>

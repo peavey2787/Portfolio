@@ -7,11 +7,11 @@
     <tr>
       <td>
         <p>
-          Employer: Appen
+          <b>Employer:</b> Appen
           <br /> <br /> <br />
-          Employed Through: November 15, 2014 – Present
-          <br /> <br /> 
-          Duties Performed:
+          <b>Employed Through:</b> November 15, 2013 – Present
+          <br /> <br />
+          <b>Duties Performed:</b>
           <br /> <br />
           • Evaluate Web Search Results
           <br />
@@ -25,17 +25,17 @@
 
       <td>
         <p>
-          Employer: 1NWContact - Thousand Oaks, California
+          <b>Employer:</b> 1NWContact - Thousand Oaks, California
           <br /> <br />
-          Employed Through: February 17, 2014 – November 15, 2014
+          <b>Employed Through:</b> February 17, 2013 – November 15, 2013
           <br /> <br />
-          Duties Performed:
+          <b>Duties Performed:</b>
           <br /> <br />
           • Answered Calls in a Timely Fashion
           <br />
           • Provided Clear Communication
           <br />
-          • Processed User Information and Set Up Appointments
+          • Processed User Information and Setup Appointments
           <br />
           • Read Customers and Acted Accordingly
         </p>
@@ -54,24 +54,24 @@
     <tr>
       <td>
         <p>
-          Employer: Steak 'n Shake - Kokomo, Indiana
+          <b>Employer:</b> Steak 'n Shake - Kokomo, Indiana
           <br />
-          Employed Through: April 2012 – January 2014
+          <b>Employed Through:</b> April 2012 – January 2013
           <br /> <br />
-          Employer: Armour-Eckrich - Peru, Indiana
+          <b>Employer:</b> Armour-Eckrich - Peru, Indiana
           <br />
-          Employed Through: July 2011 – February 2012
+          <b>Employed Through:</b> July 2011 – February 2012
         </p>
       </td>
       <td>
         <p>
-          Employer: Tyson - Logansport, Indiana
+          <b>Employer:</b> Tyson - Logansport, Indiana
           <br />
-          Employed Through: August 2007 – March 2011
-          <br /> <br /> <br /> <br />
-          Employer: Long John Silvers - Kokomo, Indiana
+          <b>Employed Through:</b> August 2007 – March 2011
+          <br /> <br />
+          <b>Employer:</b> Long John Silvers - Kokomo, Indiana
           <br />
-          Employed Through: July 2006 – July 2007
+          <b>Employed Through:</b> July 2006 – July 2007
         </p>
       </td>
     </tr>
