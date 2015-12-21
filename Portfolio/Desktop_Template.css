@@ -1,11 +1,19 @@
 body
 { 
-    background-color: lightgrey;
+    background-color: beige;
 }
 #Full_Screen_Wrapper
 {      
     width: 960px;
     min-height: 580px;  
+    padding: 0 0 10px 0;
+    background: lightgrey;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em; 
+    box-shadow:
+        inset 5px -5px 5px -5px #333,
+        inset -5px 45px 5px -5px #333; 
+        
 }
 header
 { 
@@ -14,11 +22,11 @@ header
 nav
 { 
     height: 40px;
-} 
-nav div
-{
-    width: 500px; 
-}
+    height: 40px;
+    width: 480px;
+    margin: 0 auto; 
+    border-color: white; 
+}  
 nav a
 {
     display:inline-block;
@@ -61,13 +69,15 @@ nav a:hover
     float:right; 
     width: 340px;
     height: 350px; 
+    margin-right: 9px;
 } 
 #Greetings_Flash
 {
     display: block;
     float:right; 
     width: 340px;
-    height: 350px;  
+    height: 350px;
+    margin-right: 9px;
 } 
 #About_Me_Wrapper h1
 {
@@ -111,12 +121,12 @@ nav a:hover
 #Csharp
 {
     border:solid;
-    margin: 0 0 30px 0;
+    margin: 0 5px 30px 5px;
 }
 #WebSites
 {
     border:solid;
-    margin: 0 0 30px 0;
+    margin: 0 5px 30px 5px;
 } 
 #Portfolio_Wrapper a
 {
@@ -159,6 +169,10 @@ nav a:hover
     height: 300px;
     width: 440px; 
 }
+#Project_Description
+{
+    table-layout:fixed;
+}
 #Project_Description th
 {
     font-size: 24px;
@@ -166,11 +180,14 @@ nav a:hover
 #Project_Description td
 {
     vertical-align: top;
-    padding: 0 40px 0 5px;
+    align: center;
+    padding: 0 15px 0 20px;
+    width: 400px;
 }
 #Page_Nation
 {
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 0 0 20px 0;
     width: 120px;   
 } 
 #Page_Nation img
@@ -195,7 +212,7 @@ nav a:hover
 { 
     float:left; 
     width: 230px; 
-    margin-top: 0px; 
+    margin: 0 0 0 10px; 
     text-align:right; 
     font-size: 22px;
 }
@@ -258,11 +275,12 @@ nav a:hover
     background-color: darkgrey; 
     border-radius: 10px;
 }
+
 #About_Me_Content
 { 
     display:block; 
-    width: 683px;
-    margin: 20px 0 0 230px;
+    width: 663px;
+    margin: 20px 0 0 240px;
     border: solid;
     padding: 0 20px 0px 20px;
 }
@@ -278,12 +296,13 @@ nav a:hover
 }
 #Resume_Wrapper
 {
-     min-height: 535px;
+     min-height: 535px; 
+     padding: 0 0 10px 0;
 }
 #Resume_Wrapper table
 {
     table-layout: fixed;
-    margin: 20px 0 0 0;
+    margin: 20px 10px 0 0;
     border: solid;
     border-radius: 10px;
 }
@@ -311,9 +330,9 @@ nav a:hover
 /* Contact Me Page */ 
 #Contact_Me
 {
-    margin: 30px auto;
+    margin: 20px auto; 
     width: 400px;  
-	height: 600px;
+	  height: 600px;
     border: groove;
     background: radial-gradient(grey, lightgray, white);
     border-radius: 10px;

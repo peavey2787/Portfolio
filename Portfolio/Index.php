@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">   
 	<title>Home</title> 
-	<link href="/Desktop_Template.css" rel="stylesheet"></link>
+	<link href="/Desktop_Template.css" rel="stylesheet" />
 </head>
 
 <body> 
