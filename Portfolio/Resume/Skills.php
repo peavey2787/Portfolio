@@ -15,7 +15,7 @@
       <td>
         <p>•Develop and Maintain Quality Code</p>
         <p>•Develop and Execute Test Plans</p>
-        <p>•Debbugging and Error Reporting</p>
+        <p>•Debugging and Error Reporting</p>
         <p>•Follow Programming Standards/Best Practices</p>
         <p>•Working Knowledge of SDLC Methodologies</p>
       </td>

@@ -1,7 +1,7 @@
 ﻿<div id="CoverLetter_Contact_Info" style="text-align: center">
 	<b>Jamie L. Horton</b> <br />
 	<a href="mailto:peavey2787@yahoo.com">Peavey2787@yahoo.com</a> <br />
-	<a href="https://JamieHorton.azurewebsites.net/Portfolio/Portfolio.php">My Portfolio</a> <br />
+	<a href="https://JamieHorton.azurewebsites.net/Portfolio/Portfolio.php?Project=Portfolio">My Portfolio</a> <br />
 	Wichita Falls, TX 76306 <br />
 	940-386-9684 <br />
 </div>

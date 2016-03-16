@@ -98,7 +98,7 @@
 			<p> 
 				<b>Description: </b>A simple application that will keep score for the classic game of Dice (10,000). I could never seem to find a pen and paper when I needed one so I created this app primarily for my Android phone.
 			</p>
-			<p><b>Android APK: </b><a href="/Dice/Dice.apk">Download Dice.APK</a></p>
+			<p><b>Android APK: </b><a href="/Dice/Dice.php">Download Dice.APK</a></p>
 
 			<div id="Page_Nation">
 				<a href="/Portfolio/Portfolio.php?Project=Cplusplus_School_Projects"><img src="/Images/Back.png" alt="Back"></a> 
