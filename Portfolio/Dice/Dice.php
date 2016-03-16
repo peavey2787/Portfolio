@@ -12,9 +12,8 @@ if (file_exists($path)) {
 	readfile($path);
 	exit;
 } 
-else {
-	// 404
-	echo "Sorry the file is either being updated, or it has been deleted.";
+else { 
+	echo "Sorry the file is either being updated, or it is temporarily unavailable.";
 }
 			
 ?>

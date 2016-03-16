@@ -46,6 +46,12 @@
           <br /> <br />
           • Project Management
         </p>
+        <p>
+          <b>Certificates and Awards: </b>
+          <a href="/Images/Deans_List1.png" alt="Dean's List1">Dean's List May 15th 2013</a>
+          <a href="/Images/Deans_List2.pdf" alt="Dean's List2">Dean's List Dec 15th 2013</a>
+          <a href="/Images/Presidents_List1.pdf" alt="President's List">President's List Nov 25 2015</a>
+        </p>
       </td>
     </tr>
 
