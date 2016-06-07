@@ -28,14 +28,14 @@ nav {
 nav a {
     display: inline-block;
     font-size: 26px;
-    padding: 5px;
+    margin: 5px;
     text-decoration: none;
     color: white;
 }
 
 nav a:hover {
     font-size: 30px;
-    padding: 0px;
+    margin: 5px;
     color: lightgrey;
     cursor: pointer;
 }
